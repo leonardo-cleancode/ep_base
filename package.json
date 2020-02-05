@@ -1,9 +1,9 @@
 {
-	"name": "ep_PLUGINNAME",
+	"name": "ep_readonly_experiment",
 	"version": "0.0.1",
-	"description": "DESCRIPTION",
-	"author": "USERNAME (REAL NAME) <MAIL@EXAMPLE.COM>",
+	"description": "Would like to see if I can use the aceEditEvent hook to block changes to nodes marked as read-only",
+	"author": "leonardo <leonardo@cleancode.com>",
 	"contributors": [],
-	"dependencies": {"MODULE": "0.3.20"},
+	"dependencies": {"ep_etherpad_lite": ">=1.8.0"},
 	"engines": { "node": ">= 0.6.0"}
 }

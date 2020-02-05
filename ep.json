@@ -1,13 +1,11 @@
 {
     "parts": [
         {
-            "name": "PLUGINNAME",
-            "hooks": {
-                "HOOKNAME" : "ep_FOLDERNAME/index:FUNCTIONNAME1"
-            },
+            "name": "readonly-experiment",
             "client_hooks": {
-                "CLIENT_HOOKNAME" : "ep_FOLDERNAME/static/js/index:FUNCTIONNAME1"
-            }
+                "aceEditEvent" : "ep_readonly_experiment/static/js/index"
+            },
+            "hooks": {}
         }
     ]
 }
