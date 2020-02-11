@@ -1,11 +1,11 @@
 {
-    "parts": [
-        {
-            "name": "readonly-experiment",
-            "client_hooks": {
-                "aceEditEvent" : "ep_readonly_experiment/static/js/index"
-            },
-            "hooks": {}
-        }
-    ]
+  "parts": [
+    {
+      "name": "ep_chart_test",
+      "client_hooks": {
+        "aceInitInnerdocbodyHead" : "ep_chart_test/static/js/index"
+      },
+      "hooks": {}
+    }
+  ]
 }

@@ -1,9 +1,10 @@
 {
-	"name": "ep_readonly_experiment",
-	"version": "0.0.1",
-	"description": "Would like to see if I can use the aceEditEvent hook to block changes to nodes marked as read-only",
-	"author": "leonardo <leonardo@cleancode.com>",
-	"contributors": [],
-	"dependencies": {"ep_etherpad_lite": ">=1.8.0"},
-	"engines": { "node": ">= 0.6.0"}
+    "name": "ep_chart_test",
+    "version": "0.0.1",
+    "description": "Hack that uses chart.js and ep_element to put a chart on etherpad.",
+    "author": "Leonardo Nobrega <leonardo@cleancode.com>",
+    "contributors": [],
+    "dependencies": {"ep_etherpad_lite": ">=1.8.0"},
+    "engines": { "node": ">= 0.6.0"},
+    "repository": "git://github.com/leonardo-cleancode/ep_base"
 }
